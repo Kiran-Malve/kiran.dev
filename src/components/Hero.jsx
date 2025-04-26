@@ -7,7 +7,7 @@ const Hero = () => {
   const [isHovered, setIsHovered] = useState(false);
   const copyNumber = () => {
     navigator.clipboard.writeText("9893133076");
-    toast.success('Copied to clipboard!', {
+    toast.success('Copied!', {
       position: 'top-center',
       style: {
         background: 'grey',
