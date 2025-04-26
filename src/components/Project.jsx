@@ -1,12 +1,12 @@
 import React from 'react';
-import GGHS from "../assets/good-guys-logo-main-2.svg";
+import GGHS from "../assets/logo.svg";
 import CloudRent from "../assets/CloudRent-Logo-AI-3.svg"
 import SS from "../assets/SS.svg"
 
 const projects = [
   {
     title: 'GGHS',
-    description: 'GGHS is home service provider company',
+    description: 'Home service provider company',
     tags: ['React', 'strip', 'MongoDB'],
     image: GGHS,
     link: 'https://www.thegoodguys.com.au/home-services',
@@ -32,7 +32,7 @@ const Projects = () => {
     <section id="projects" className="py-20 bg-secondary">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-12 text-center">
-          My <span className="text-accent">Projects</span>
+           <span className="text-accent">Projects</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects?.map((project, index) => (

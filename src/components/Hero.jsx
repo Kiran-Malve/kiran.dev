@@ -26,7 +26,7 @@ const Hero = () => {
             </h1>
             <h2 className="text-2xl md:text-3xl mb-6">Frontend Developer</h2>
             <p className="text-gray-300 mb-8">
-              I build exceptional digital experiences with modern technologies and responsive application.
+              I build exceptional digital experiences with modern technologies and single page and server side application.
             </p>
             <div className="flex space-x-4">
             <div className="relative inline-block">
@@ -63,6 +63,9 @@ const Hero = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="fixed bottom-4 right-4 text-xs text-white opacity-70">
+          Inspired by DrunkDaddy
         </div>
       </div>
       <Toaster />

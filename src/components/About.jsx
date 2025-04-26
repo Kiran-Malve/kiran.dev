@@ -23,7 +23,7 @@ const About = () => {
             <h3 className="text-2xl font-semibold mb-4">Who am I?</h3>
             <p className="text-gray-300 mb-6">
               I'm a passionate frontend developer with expertise in React.js and modern
-              JavaScript frameworks. I love creating beautiful, responsive, and
+              JavaScript frameworks. I love creating beautiful, single page, and
               user-friendly web applications.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">

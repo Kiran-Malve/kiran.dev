@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
+import LogoKm from "../assets/logokm.jpg"
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,8 +8,17 @@ const Header = () => {
   return (
     <header className="fixed w-full bg-secondary shadow-lg z-50">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-        <a href="#" className="text-2xl font-bold text-accent">Kiran.Dev</a>
-        
+      <a href="#" className="text-2xl font-bold text-accent">
+        <div className="rounded-full overflow-hidden border-2 border-accent w-10 h-10 flex items-center justify-center shadow-lg shadow-accent/20">
+          <img 
+            alt='Kiran Malve Logo'  
+            src={LogoKm}  
+            width={50} 
+            height={50}
+            className="object-cover w-full h-full" 
+          />
+        </div>
+      </a>
         <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
         
         <button 
