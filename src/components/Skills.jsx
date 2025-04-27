@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 
+
 const skillsData = {
   skills: [
     { name: 'HTML', level: 70 },
     { name: 'CSS', level: 60 },
     { name: 'JavaScript', level: 65 },
+    { name: 'ES6', level: 65 },
     { name: 'Tailwind CSS', level: 40 },
     { name: 'Bootstrap', level: 55 },
     { name: 'TypeScript', level: 50 },
@@ -17,6 +19,7 @@ const skillsData = {
     { name: 'Z-credit', level: 60 },
     { name: 'Node.js', level: 40 },
     { name: 'Prisma', level: 40 },
+    { name: 'Linux', level: 40 },
   ],
   tools: [
     { name: 'Chat GPT && DeepSeek', level: 65 },
@@ -29,6 +32,9 @@ const skillsData = {
     { name: 'VS Code', level: 80 },
     { name: 'Postman', level: 60 },
     { name: 'Swagger API', level: 60 },
+    { name: 'Webpack', level: 60 },
+    { name: 'Babel', level: 60 },
+    { name: 'Digital Ocean', level: 60 },
   ],
 };
 

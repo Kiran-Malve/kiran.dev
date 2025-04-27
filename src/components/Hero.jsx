@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import profileImage from '../assets/kiran_image.jpg';
 import toast, { Toaster } from 'react-hot-toast';
+import { IoMdCheckmark } from 'react-icons/io';
 
 
 const Hero = () => {
@@ -24,12 +25,27 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
               Hi, I'm <span className="text-accent">Kiran Malve</span>
             </h1>
-            <h2 className="text-2xl md:text-3xl mb-6">Frontend Developer</h2>
-            <p className="text-gray-300 mb-8">
+            <h2 className="text-2xl md:text-3xl mb-4">Frontend Developer</h2>
+            <p className="text-gray-300 mb-4">
               I build exceptional digital experiences with modern technologies and single page and server side application.
             </p>
-            <div className="flex space-x-4">
-            <div className="relative inline-block">
+               <div className="space-y-2">
+                  <div className="flex items-center">
+                    <IoMdCheckmark className="text-green-500 mr-2" />
+                    <span>3.5+ years experience with React ecosystem</span>
+                  </div>
+                  <div className="flex items-center">
+                    <IoMdCheckmark className="text-green-500 mr-2" />
+                    <span>Expertise in RESTful API integration and state management</span>
+                  </div>
+                  <div className="flex items-center">
+                    <IoMdCheckmark className="text-green-500 mr-2" />
+                    <span>Proven track record in Agile development environments</span>
+                  </div>
+                </div>
+              
+            <div className="flex space-x-2 mt-4">
+             <div className="relative inline-block">
               <button
                 className="bg-accent text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-all duration-300 relative overflow-hidden"
                 onMouseEnter={() => setIsHovered(true)}
