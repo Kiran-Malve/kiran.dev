@@ -22,7 +22,7 @@ const projects = [
     title: 'Education',
     description: 'Eduction Platform',
     tags: ['Next.js', 'tailwind', 'firebase'],
-    image: SS,
+    image: CloudRent,
     link: 'https://www.education.com/',
   },
 ];
