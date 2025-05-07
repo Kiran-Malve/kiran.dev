@@ -1,7 +1,7 @@
 import React from 'react';
 import GGHS from "../assets/logo.svg";
 import CloudRent from "../assets/CloudRent-Logo-AI-3.svg"
-import SS from "../assets/SS.svg"
+import Floyd from "../assets/Floyd.png"
 
 const projects = [
   {
@@ -22,7 +22,7 @@ const projects = [
     title: 'Education',
     description: 'Eduction Platform',
     tags: ['Next.js', 'tailwind', 'firebase'],
-    image: CloudRent,
+    image: Floyd,
     link: 'https://www.education.com/',
   },
 ];
