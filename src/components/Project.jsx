@@ -19,11 +19,11 @@ const projects = [
     link: 'https://cloudrent.me/',
   },
   {
-    title: 'Success',
+    title: 'Education',
     description: 'Eduction Platform',
     tags: ['Next.js', 'tailwind', 'firebase'],
     image: SS,
-    link: 'https://success-scolaire.stage.eugeniuses.com/login',
+    link: 'https://www.education.com/',
   },
 ];
 
